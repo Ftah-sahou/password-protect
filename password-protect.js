@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 
   // ⭐ غير كلمة المرور من هنا فقط ⭐
-  const correctPassword = "SAHOU";
+  const correctPassword = "SAHOU123";
 
   const path = window.location.pathname;
   if (path !== "/" && path !== "/index.html") return;
@@ -81,3 +81,4 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
 });
+
